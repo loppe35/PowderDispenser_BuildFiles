@@ -1,7 +1,7 @@
 # 3D Models and CAD Designs
 
 ## Overview
-This folder contains the STL and STEP files for the Powder Dispenser project. These files represent the 3D models and detailed CAD designs necessary for manufacturing or prototyping the hardware components of the powder dispenser system.
+This subrepository contains the STL and STEP files for [the Powder Dispensing and Weighing module project repository](https://github.com/loppe35/PowderDispensing_and_Weighing_Module.git). These files represent the 3D models and detailed CAD designs necessary for manufacturing or prototyping the hardware components of the powder dispenser system.
 
 ## File Descriptions
 - **STL Files**: These files are used for 3D printing. Each file corresponds to a specific part of the powder dispenser, ready for 3D printing on most standard 3D printers.
