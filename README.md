@@ -4,6 +4,8 @@
 This subrepository contains the STL and STEP files for [the Powder Dispensing and Weighing Module Project Repository](https://github.com/loppe35/PowderDispensing_and_Weighing_Module.git). These files represent the 3D models and detailed CAD designs necessary for manufacturing or prototyping the hardware components of the powder dispenser system.
 
 A render depicting the complete system with explanatory labels:
+
+
 ![Full System w. Dummy](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Renders/FullRender.jpg)
 
 This repository also includes assembly instructions, renders, and labeled diagrams to help users understand the design and build the system efficiently.
