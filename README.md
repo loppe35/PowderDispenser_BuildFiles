@@ -6,7 +6,7 @@ This subrepository contains the STL and STEP files for [the Powder Dispensing an
 A render depicting the complete system with explanatory labels:
 
 
-![Full System w. Dummy](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Renders/FullRender.jpg)
+![Full System w. Dummy](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Renders/FullRender.jpg?raw=true)
 
 This repository also includes assembly instructions, renders, and labeled diagrams to help users understand the design and build the system efficiently.
 
