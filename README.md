@@ -4,7 +4,14 @@
 This subrepository contains the STL and STEP files for [the Powder Dispensing and Weighing Module Project Repository](https://github.com/loppe35/PowderDispensing_and_Weighing_Module.git). These files represent the 3D models and detailed CAD designs necessary for manufacturing or prototyping the hardware components of the powder dispenser system.
 
 A render depicting the complete system with explanatory labels:
-![Full System w. Dummy](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Renders/FullRender.jpg)
+
+![Full Render Module](https://github.com/user-attachments/assets/2bc7e276-f9d4-4a36-a284-264e3dfc73b5)
+
+When printed, built and assembled the setup will look as follows:
+
+![Full System w. Dummy](https://github.com/user-attachments/assets/48b6c85f-f5f7-476c-8f0f-9b04f7af06fb)
+
+Here a dummy input system is added for testing.
 
 This repository also includes assembly instructions, renders, and labeled diagrams to help users understand the design and build the system efficiently.
 
@@ -22,19 +29,19 @@ This section provides the detailed names of STL and STEP files corresponding to 
 #### **3D Printable parts**
 Images and labeled diagrams of the assembled system and individual components are provided for visual reference:
 1. **Load Cell Housing**
-    ![Load Cell Housing](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Part_Pictures/LC_Housing.jpg)
+    ![Load Cell Housing](https://github.com/user-attachments/assets/364b0e8f-3878-472e-9461-1a37518e5141)
    - STL: `load_cell_housing.stl`
    - STEP: `load_cell_housing.step`
    - Function: Houses the load cell for precise measurements and serves as a rail for the dispensing head.
 
 2. **Dispensing Head**
-    ![Dispenser Head](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Part_Pictures/DispHead_onMount.jpg)
+    ![Dispenser Head](https://github.com/user-attachments/assets/5b923712-4587-4be1-ad45-2eb070b85f1e)
    - STL: `dispensing_head.stl`
    - STEP: `dispensing_head.step`
    - Function: Holds the auger mechanism in place and aligns it for accurate dispensing.
 
 3. **Syringe Bracket**
-    ![Syringe Bracket](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Part_Pictures/SyringeBracket_s.jpg)
+    ![Syringe Bracket](https://github.com/user-attachments/assets/3388dbb5-f76f-4f71-aa81-6bc54f8292c8)
    - STL: `syringe_bracket.stl`
    - STEP: `syringe_bracket.step`
    - Function: Secures syringes and attaches to the load cell unigrippers.
@@ -60,7 +67,8 @@ Images and labeled diagrams of the assembled system and individual components ar
    - Function: Optional casing to hold a peristaltic pump and relay for dummy input testing.
 
 8. **Dummy Input Components (Optional)**
-    ![Dummy Input](https://raw.githubusercontent.com/loppe35/PowderDispenser_BuildFiles/Part_Pictures/Dummy_s.jpg)
+    ![Dummy Input](https://github.com/user-attachments/assets/b19e5b40-38dd-4867-83e8-cbbfbe41542d)
+
    - STL: `dummy_input_casing_front.stl`, `dummy_input_casing_back.stl`
    - STEP: `dummy_input_casing_front.step`, `dummy_input_casing_back.step`
    - Function: Optional casing to hold a peristaltic pump and relay for dummy input testing.
@@ -180,7 +188,7 @@ Make sure the installation guide from the `PowderDispenserCPP` directory is succ
      pip install -r requirements.txt
      ```
 2. **Compile Firmware**:
-   Connect the Arduino Uno board with the computer, and flash it though the chosen IDE(PlatfomIO was used during this project), with the main.cpp file located in the source files of the ![software repositor](https://github.com/loppe35/PowderDispenser_FWSW.git).
+   Connect the Arduino Uno board with the computer, and flash it though the chosen IDE(PlatfomIO was used during this project), with the main.cpp file located in the source files of the ![software repository](https://github.com/loppe35/PowderDispenser_FWSW.git).
 3. **Configure System**:
    - Edit the `config.json` file to match your specific hardware and operational parameters.
 ---
